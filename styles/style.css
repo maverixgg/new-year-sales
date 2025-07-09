@@ -1,0 +1,122 @@
+
+.merriweather-text {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.primary-style{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.05)),
+    url('../images/Banner Image.png');
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+    background-repeat: round;
+    background-position: center;
+    max-width: 1320px;
+    height: 600px;
+    margin: 20px auto;
+}
+
+.sec1 h4{
+    font-size: 32px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    z-index: 2;
+    color: white;
+}
+.sec1 h1{
+    font-size: 72px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    color: white;
+    z-index: 1;
+}
+
+.sec2{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec2 h1{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.sec2 h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+.sec2 h3{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.img{
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+.sec3{
+    max-width: 1320px;
+    height: 600px;
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.05)),
+    url('../images/Vectorrr.png');
+    color: white;
+    border-radius: 16px;
+}
+
+.sec3 .text{
+    padding: 126px;
+}
+
+.sec3 .text h1{
+    font-size: 64px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sec3 #para{
+    max-width: 700px;
+    font-size: 18px;
+    margin-top: 36px;
+}
+
+.sec3 .text button{
+    background: black;
+    color: white;
+    font-size: large;
+}
+
+
