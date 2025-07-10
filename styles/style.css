@@ -199,3 +199,132 @@
     margin: 0px;
 }
 
+.sales-pic-container{
+    height: 500px;
+    background-image: url("../images/Rectangle\ 2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 30%;
+}
+
+.sec-container .pic-container{
+    position: relative;
+    padding: 28px 0;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.pic-container{
+    margin-top: 100px;
+}
+.sales-container .pic-container img {
+  width: 400px;
+}
+
+.rec-box{
+    display: block;
+    max-width: 1340px;
+    margin: 0 auto;
+    position: relative;
+    top: 600px;
+    z-index: -1;
+}
+
+.surprise-box{
+    /* position: absolute;
+    left: 400px; */
+    width: 550px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+
+.discount{
+    position: absolute;
+    left: 57%;
+    top: 30%;
+}
+
+.sec8{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.sec8 .text{
+    margin-bottom: 40px;
+}
+
+.gallery{
+    /* display: grid; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.subscription{
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.05),#FFFFFF);
+    border-radius: 10px;
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 0px;
+}
+
+
+
+.form-container{
+    padding: 80px 0px;
+}
+
+#newsletter{
+    width: 100%;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    padding: 24px 30px;
+}
+
+#subscribe-label{
+    width: 210px;
+    height: 72px;
+    color: white;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 22px;
+}
+
+footer{
+    background: #070211;
+    width: 100%;
+    height: 720px;
+    margin-top: 120px;
+}
+
+.details{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer .icons{
+    max-width: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+    align-items: center;
+}
+
